@@ -28,3 +28,40 @@ flutter:
   - assets/images/powered_by_tmdb.png
   - assets/images/background_image.jpg
   - assets/images/logo.png
+  - assets/images/ui/beijing.png
+  - assets/images/ui/bg.png
+  - assets/images/ui/dengchu.png
+  - assets/images/ui/dengchu_1.png
+  - assets/images/ui/dengru.png
+  - assets/images/ui/dengru1.png
+  - assets/images/ui/dichanshang.png
+  - assets/images/ui/fanghui1.png
+  - assets/images/ui/fanhui.png
+  - assets/images/ui/haoma.png
+  - assets/images/ui/haoma_line.png
+  - assets/images/ui/mima.png
+  - assets/images/ui/mulu.png
+  - assets/images/ui/name.png
+  - assets/images/ui/name_line.png
+  - assets/images/ui/name_title.png
+  - assets/images/ui/qu.png
+  - assets/images/ui/quyu.png
+  - assets/images/ui/sheng.png
+  - assets/images/ui/shi.png
+  - assets/images/ui/sousuo.png
+  - assets/images/ui/sousuo1.png
+  - assets/images/ui/title.png
+  - assets/images/ui/title1.png
+  - assets/images/ui/title2.png
+  - assets/images/ui/title3.png
+  - assets/images/ui/tupian.png
+  - assets/images/ui/tupian1.png
+  - assets/images/ui/tupian2.png
+  - assets/images/ui/tupian3.png
+  - assets/images/ui/tupian4.png
+  - assets/images/ui/xiala.png
+  - assets/images/ui/xiala_title.png
+  - assets/images/ui/xian.png
+  - assets/images/ui/yonghuming.png
+  - assets/images/ui/zhongjiesuo.png
+  - assets/images/ui/zhongjiesuo_line.png

@@ -7,6 +7,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_redux/flutter_redux.dart';
 import 'package:http/http.dart';
 import 'package:inkino/message_provider.dart';
+import 'package:inkino/ui/house/login_page.dart';
 import 'package:inkino/ui/main_page.dart';
 import 'package:key_value_store_flutter/key_value_store_flutter.dart';
 import 'package:redux/redux.dart';
@@ -58,7 +59,7 @@ class _InKinoAppState extends State<InKinoApp> {
           accentColor: const Color(0xFFFFAD32),
           scaffoldBackgroundColor: Colors.transparent,
         ),
-        home: const MainPage(),
+        home: const LoginPage(),
         supportedLocales: supportedLocales,
         localizationsDelegates: localizationsDelegates,
       ),
