@@ -12,7 +12,7 @@ class AppPage extends StatefulWidget {
   _AppPageState createState() => _AppPageState();
 }
 
-class _AppPageState extends State<AppPage> {
+class _AppPageState extends State<AppPage> with SingleTickerProviderStateMixin{
  TabController _tabController;
   int _selectedTab = 0;
 
@@ -51,9 +51,11 @@ class _AppPageState extends State<AppPage> {
 
   @override
   Widget build(BuildContext context) {
-    final backgroundImage = Image.asset(
-      ImageAssets.backgroundImage,
-      fit: BoxFit.cover,
+    final backgroundImage = Container(
+      padding: EdgeInsets.fromLTRB(0, 0, 0, 50),
+      child: Center(child: Image.asset(
+      ImageAssets.appPageBackground,
+      fit: BoxFit.fill))
     );
 
     final content = Scaffold(
@@ -71,6 +73,7 @@ class _AppPageState extends State<AppPage> {
 
     return Stack(
       fit: StackFit.expand,
+      alignment:AlignmentDirectional.topStart,
       children: [
         backgroundImage,
         content,

@@ -53,6 +53,7 @@ class _InKinoAppState extends State<InKinoApp> {
     return StoreProvider<AppState>(
       store: widget.store,
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'inKino',
         theme: ThemeData(
           primaryColor: const Color(0xFF1C306D),
